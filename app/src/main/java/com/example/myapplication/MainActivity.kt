@@ -22,6 +22,7 @@ import com.example.myapplication.Layouts.SingleChatScreen
 import com.example.myapplication.Layouts.SingleStatusScreen
 import dagger.hilt.android.AndroidEntryPoint
 
+// navigation classes
 sealed class DestinationScreen(var route : String ){
     object SignUp : DestinationScreen("signup")
     object LogIn : DestinationScreen("login")
